@@ -82,7 +82,7 @@ cnfconverter.to_CNF(data)
 [['~AD(x,y)', 'PD(z)'], ['~BD(x,y)', 'PD(z)']]
 ```
 
-The result is list of list. the 
+The result is list of list. The element is a clause which consists of list of predicates.
 
 
 ------------------
