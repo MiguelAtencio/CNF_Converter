@@ -230,8 +230,11 @@ def to_cnf(ast):
         res = to_cnf(ast['left'])+to_cnf(ast['right'])
         return res
 
+def get_AST(data):
+    return parser.parse(data)
+
 def to_CNF(data):
-    ast = parser.parse(data)
+    ast = get_AST(data)
     ast = NegTree(ast)
     ast = DisTree(ast)
     ast = to_cnf(ast)
