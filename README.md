@@ -52,7 +52,7 @@ Or you can just import cnfconverter.py in your code.
 
 
 ```python
-import cnfconverter
+from cnf import cnfconverter
 ```
 
 In CNF_Concerter, what you input is a logic statment string:

@@ -13,7 +13,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "cnfconverter",
-    version = "1.0.2",
+    version = "1.1.1",
     keywords = ("pip", "datacanvas", "cnf", "panjinbo"),
     description = "CNF sdk",
     long_description = "CNF converter sdk for python",
